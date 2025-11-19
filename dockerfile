@@ -24,4 +24,4 @@ COPY app.py .
 EXPOSE 8501
 
 # Commando om de Streamlit-app te starten
-ENTRYPOINT ["streamlit", "run", "app1.py", "--server.port=8501", "--server.address=0.0.0.0"]
+ENTRYPOINT ["streamlit", "run", "app.py", "--server.port=8501", "--server.address=0.0.0.0"]
