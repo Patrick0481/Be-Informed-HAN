@@ -1,0 +1,7 @@
+streamlit
+streamlit-chat
+PyPDF2
+sentence-transformers
+chromadb
+Pillow
+ollama
