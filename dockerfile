@@ -18,7 +18,7 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Kopieer de rest van de applicatiecode
-COPY app1.py .
+COPY app.py .
 
 # Exposeer de poort die Streamlit gebruikt
 EXPOSE 8501
