@@ -18,10 +18,10 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Kopieer de rest van de applicatiecode
-COPY app.py .
+COPY app1.py .
 
 # Exposeer de poort die Streamlit gebruikt
 EXPOSE 8501
 
 # Commando om de Streamlit-app te starten
-ENTRYPOINT ["streamlit", "run", "app.py", "--server.port=8501", "--server.address=0.0.0.0"]
+ENTRYPOINT ["streamlit", "run", "app1.py", "--server.port=8501", "--server.address=0.0.0.0"]
